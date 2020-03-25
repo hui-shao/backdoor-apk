@@ -747,6 +747,7 @@ if [ $rc != 0 ]; then
   exit $rc
 fi
 
+echo "[+] Your apk: $MY_PATH/original/dist/$ORIG_APK_FILE_NAME"
 rm $unaligned_apk
 
 exit 0
